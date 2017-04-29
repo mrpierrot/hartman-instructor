@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Instructeur Hartman</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="poster"></div>
+    <div class="action-bar">
+      <div class="form-row">
+        <label class="" for="idleTimeInput">Limite de temps<br>(en secondes)</label>
+        <input id="idleTimeInput" type="number" value="5" />
+      </div>
+      <div class="onoffswitch">
+        <input id="timerAction" type="checkbox" name="timerAction" class="onoffswitch-checkbox">
+        <label class="onoffswitch-label" for="timerAction">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+<script>
+  // You can also require other files to run in this process
+  require('./renderer.js')
+</script>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "hartman",
+  "version": "0.0.1",
+  "description": "Hartman instructor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .  --enable-logging",
+    "pack": "build --dir --config",
+    "pack:win": "build --dir --win --x64"
+  },
+  "author": "",
+  "license": "Beerware",
+  "dependencies": {
+    "@paulcbetts/system-idle-time": "^1.0.4",
+    "fs-readdir-recursive": "^1.0.0",
+    "lodash": "^4.17.4",
+    "electron-context-menu": "^0.9.0",
+    "play-sound": "^1.1.1"
+  },
+  "devDependencies": {
+    "electron": "^1.6.6",
+    "electron-builder": "^17.1.1",
+    "electron-rebuild": "^1.5.7"
+  }
+}
